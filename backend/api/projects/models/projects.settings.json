@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "end_at": {
+      "type": "date"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "languages": {
+      "type": "enumeration",
+      "enum": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Go",
+        "Ruby",
+        "haskwell",
+        "python"
+      ]
+    }
+  }
+}
