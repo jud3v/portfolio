@@ -12,23 +12,26 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
-    "sqlite3": "latest",
+    "mysql": "latest",
     "strapi": "3.1.4",
     "strapi-admin": "3.1.4",
     "strapi-connector-bookshelf": "3.1.4",
+    "strapi-hook-algolia": "^3.1.5",
     "strapi-plugin-content-manager": "3.1.4",
     "strapi-plugin-content-type-builder": "3.1.4",
     "strapi-plugin-email": "3.1.4",
-    "strapi-plugin-graphql": "3.1.4",
     "strapi-plugin-upload": "3.1.4",
     "strapi-plugin-users-permissions": "3.1.4",
+    "strapi-provider-email-sendgrid": "^3.1.4",
+    "strapi-redis": "^3.0.0-alpha.4.3",
+    "strapi-upload-cloudinary": "^3.0.0-alpha.12",
     "strapi-utils": "3.1.4"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "319b623c-2399-47bc-9906-05971ffb0650"
+    "uuid": "ecd28057-67a8-434a-9fef-559acfcaa4e9"
   },
   "engines": {
     "node": ">=10.0.0",
