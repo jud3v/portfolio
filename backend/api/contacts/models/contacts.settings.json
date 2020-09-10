@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contacts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "private": false,
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
